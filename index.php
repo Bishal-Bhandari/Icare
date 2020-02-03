@@ -10,7 +10,6 @@ include('include/slider.php');
   <!--===== welcome speech =====-->
   <section class="container-fluid pb-3 mt-5 py-0">
         <div class="row px-lg-5 px-2">
-
           <div class="col-lg-8 col-sm-12 pl-lg-5 px-2">
             <h3 class="display-5 pt-5 font-weight-bold service-heading-top head-heading-top">Welcome to JS Fashion</h3>
             <hr class="underline-welcome-about ml-0 mt-0 ">
