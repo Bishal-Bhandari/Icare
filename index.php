@@ -10,7 +10,7 @@ include('include/slider.php');
   <!--===== welcome speech =====-->
   <section class="container-fluid pb-3 mt-5 py-0">
         <div class="row px-lg-5 px-2">
-          <div class="col-lg-8 col-sm-12 pl-lg-5 px-2">
+          <div class="col-lg-8 col-sm-12 pl-lg-5 px-2" data-aos="fade-right" data-aos-duration="1000">
             <h3 class="display-5 pt-5 font-weight-bold service-heading-top head-heading-top">Welcome to ICare Technology</h3>
             <hr class="underline-welcome-about ml-0 mt-0 ">
             <p class="para-service line-height-about mt-4 mb-1 pb-3 text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -30,8 +30,8 @@ include('include/slider.php');
 
           </div>
 
-          <div class="col-lg-4 col-sm-12 pr-lg-5 px-2">
-            <img src="img/team/2.jpg" width="100%" alt="Doctor Image">
+          <div class="col-lg-4 col-sm-12 pr-lg-5 px-2" data-aos="fade-left" data-aos-duration="1000">
+            <img src="img/team/ceo1.jpg" width="100%" alt="Doctor Image">
           </div>
 
         </div>
@@ -47,7 +47,7 @@ include('include/slider.php');
         </div>
       </div>
       <div class="row text-center">
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="flip-up" data-aos-duration="1000">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
 			<i class="fas fa-thumbs-up fa-stack-1x fa-inverse"></i>
@@ -55,7 +55,7 @@ include('include/slider.php');
           <h4 class="service-heading">Quality</h4>
           <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="flip-up" data-aos-duration="1000">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
 			<i class="fas fa-tshirt fa-stack-1x fa-inverse"></i>
@@ -63,7 +63,7 @@ include('include/slider.php');
           <h4 class="service-heading">Design</h4>
           <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="flip-up" data-aos-duration="1000">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>

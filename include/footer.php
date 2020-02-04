@@ -91,6 +91,11 @@
 <script src="script/script.js"></script>
 <script src="script/contactform.js"></script>
 <script src="https://code.iconify.design/1/1.0.2/iconify.min.js"></script>
+<!-- Animation -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

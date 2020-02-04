@@ -32,8 +32,9 @@ include('include/navbar.php');
       <div class="row">
           <div class="col-lg-6">
             <div class="map mb-4 mb-lg-0">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1799.6058739357406!2d85.2993370641849!3d27.75566914193597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2snp!4v1563593312799!5m2!1sen!2snp"
-               width="100%" height="440px" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.172159845503!2d85.31456316823457!3d27.736641650517605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x90c2b642b64532a5!2sIcare%20Technology!5e0!3m2!1sen!2snp!4v1580718953773!5m2!1sen!2snp" 
+              width="100%" height="430px" frameborder="0" style="border:0" allowfullscreen></iframe>
+        
             </div>
           </div>
 

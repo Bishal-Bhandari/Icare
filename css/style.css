@@ -24,6 +24,9 @@
    color: #808080;
    font-size: 13px;
   }
+  .para-service{
+    text-align: justify;
+  }
 /* first section */
   .para-firstSection-indexSecondary{
 	color: #808080;
