@@ -49,26 +49,26 @@ include('include/slider.php');
       <div class="row text-center">
         <div class="col-md-4" data-aos="flip-up" data-aos-duration="1000">
           <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-			<i class="fas fa-thumbs-up fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">Quality</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-        </div>
-        <div class="col-md-4" data-aos="flip-up" data-aos-duration="1000">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-			<i class="fas fa-tshirt fa-stack-1x fa-inverse"></i>
+			<i class="fas fa-circle fa-stack-2x text-primary"></i>
+			<i class="fas fa-pencil-ruler fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Design</h4>
           <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
         <div class="col-md-4" data-aos="flip-up" data-aos-duration="1000">
           <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+			<i class="fas fa-circle fa-stack-2x text-primary"></i>
+			<i class="fas fa-file-code fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Satisfaction</h4>
+          <h4 class="service-heading">Develop</h4>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        </div>
+        <div class="col-md-4" data-aos="flip-up" data-aos-duration="1000">
+          <span class="fa-stack fa-4x">
+			<i class="fas fa-circle fa-stack-2x text-primary"></i>
+			<i class="fas fa-server fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Deploy</h4>
           <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
       </div>
@@ -82,7 +82,7 @@ include('include/slider.php');
 					<img src="img/header-bg.jpg" width="100%">
 				</div>
 				<div class="col-lg-5 pr-lg-5 px-3">
-					<div class="row bg-light py-2 general-content-shadow">
+					<div class="row bg-light py-2 general-content-shadow" data-aos="flip-up" data-aos-duration="1000">
 						<div class="col-sm-12">
 							<article class="px-1">
 								<i class="fab fa-500px fa-2x"></i>
@@ -92,7 +92,7 @@ include('include/slider.php');
 							</article>
 						</div>
 					</div>
-					<div class="row bg-light py-2 my-3 general-content-shadow">
+					<div class="row bg-light py-2 my-3 general-content-shadow" data-aos="flip-up" data-aos-duration="1000">
 						<div class="col-sm-12">
 							<article class="px-1">
 								<i class="fas fa-calendar-week fa-2x"></i>
@@ -102,7 +102,7 @@ include('include/slider.php');
 							</article>
 						</div>
 					</div>
-					<div class="row bg-light py-2 my-3 general-content-shadow">
+					<div class="row bg-light py-2 my-3 general-content-shadow" data-aos="flip-up" data-aos-duration="1000">
 						<div class="col-sm-12">
 							<article class="px-1">
 								<i class="fas fa-medal fa-2x"></i>
@@ -112,7 +112,7 @@ include('include/slider.php');
 							</article>
 						</div>
 					</div>
-					<div class="row bg-light py-2 my-3 general-content-shadow">
+					<div class="row bg-light py-2 my-3 general-content-shadow" data-aos="flip-up" data-aos-duration="1000">
 						<div class="col-sm-12">
 							<article class="px-1">
 								<i class="far fa-heart fa-2x"></i>
@@ -132,26 +132,26 @@ include('include/slider.php');
 			<div class="row counter-row-img">
 				<div class="text-center show-project-num">
 				<span class="iconify counter-icon" data-icon="entypo:emoji-happy" data-inline="false"></span>
-					<p class="value c-section4 mb-5">501</p>
-					<p class="text-uppercase counter-name">Happy Customer</p>
+					<p class="value c-section4 mb-5">56</p>
+					<p class="text-uppercase counter-name">Happy Clients</p>
 				</div>
 				<div class="bar"></div>
 				<div class="text-center show-project-num ">
-				<span class="iconify counter-icon" data-icon="map:clothing-store" data-inline="false"></span>
-					<p class="value c-section4 mb-5">265</p>
-					<p class="text-uppercase counter-name">Garment Sold</p>
+				<span class="iconify counter-icon" data-icon="whh:website" data-inline="false"></span>
+					<p class="value c-section4 mb-5">23</p>
+					<p class="text-uppercase counter-name">Website</p>
 				</div>
 				<div class="bar"></div>
 				<div class="text-center show-project-num ">
-					<span class="iconify counter-icon" data-icon="dashicons:category" data-inline="false"></span>
-					<p class="value c-section4 mb-5">96</p>
-					<p class="text-uppercase counter-name">Type of Garment</p>
+				<span class="iconify counter-icon" data-icon="whh:seo" data-inline="false"></span>
+					<p class="value c-section4 mb-5">35</p>
+					<p class="text-uppercase counter-name">SEO</p>
 				</div>
 				<div class="bar"></div>
 				<div class="text-center show-project-num">
-					<span class="iconify counter-icon" data-icon="fa-solid:user-check" data-inline="false"></span>
-					<p class="value c-section4 mb-5">666</p>
-					<p class="text-uppercase counter-name">Clients</p>
+				<span class="iconify counter-icon" data-icon="ic:baseline-touch-app" data-inline="false"></span>
+					<p class="value c-section4 mb-5">13</p>
+					<p class="text-uppercase counter-name">Application</p>
 				</div>
 			</div>
   </section>
@@ -163,8 +163,8 @@ include('include/slider.php');
 		echo"<div class='container'>";
 			echo"<div class='row'>";
 				echo"<div class='col-lg-12 text-center'>";
-					echo"<h2 class='section-heading text-uppercase'>Product Details</h2>";
-					echo"<h3 class='section-subheading text-muted'>Click product image to know more.</h3>";
+					echo"<h2 class='section-heading text-uppercase'>Tech News</h2>";
+					echo"<h3 class='section-subheading text-muted'>Click image to know more.</h3>";
 				echo"</div>";
 			echo"</div>";
 			echo"<div class='row'>";
@@ -180,8 +180,6 @@ include('include/slider.php');
 									
 									$id=$row['blog_id'];
 									$img=$row['blog_img'];
-									$color=$row['color'];
-									$typeof=$row['typeof'];
 
 									
 									echo"<div class='col-md-4 col-sm-6 portfolio-item'>";
@@ -194,8 +192,6 @@ include('include/slider.php');
 											echo"<img class='img-fluid' src='img/product_img/$img' alt='Product Image'>";
 										echo"</a>";
 										echo"<div class='portfolio-caption'>";
-										echo"<h4>$typeof</h4>";
-										echo"<p class='text-muted'>$color</p>";
 										echo"</div>";
 										echo"</div>";
 										
@@ -213,7 +209,7 @@ include('include/slider.php');
   <section class="container-fluid px-lg-5 py-1 my-5" id="#">
 			<div class="row px-lg-5 px-2 mt-lg-5 pt-lg-5 py-3">
 				<div class="col-lg-5 pt-0 pr-lg-5">
-					<h4 class="font-weight-bold heading-font-size head-heading-top">Some overview on our brands</h4>
+					<h4 class="font-weight-bold heading-font-size head-heading-top">Some overview on our organization</h4>
 					<hr class="underline-bar-indexSecondary">
 					<p class="para-firstSection-indexSecondary pt-lg-4 mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur. </p>
 					<p class="para-firstSection-indexSecondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur.</p>

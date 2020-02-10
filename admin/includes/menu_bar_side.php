@@ -45,9 +45,9 @@
             <span>Product</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-            <h6 class="dropdown-header">Product Screens:</h6>
-            <a class="dropdown-item" href="addBlog.php">Add Product</a>
-            <a class="dropdown-item" href="viewBlog.php">View and Edit Product</a>
+            <h6 class="dropdown-header">News Screens:</h6>
+            <a class="dropdown-item" href="addBlog.php">Add News</a>
+            <a class="dropdown-item" href="viewBlog.php">View and Edit News</a>
           </div>
         </li>
 
