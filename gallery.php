@@ -4,7 +4,7 @@ $phptitle="Gallery";
 <?php 
 include('include/head.php');
 include('include/navbar.php');
-include('include/slider.php');
+// include('include/slider.php');
 ?>
 
 <div class="container gallery-container">

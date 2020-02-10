@@ -4,7 +4,7 @@ $phptitle="Detail";
 <?php 
 include('include/head.php');
 include('include/navbar.php');
-include('include/slider.php');
+// include('include/slider.php');
 ?>
 
 <?php

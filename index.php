@@ -17,7 +17,8 @@ include('include/slider.php');
 			 Since 2011, ICare has been a leading provider of ICT solutions and services. It is ultimate place for ICT solution. 
 			We are known for providing the best IT experience and taking great care of our clients and employees.</p>
             <p class="para-service line-height-about mb-3 pb-5 text-dark">We ICare Technology have been working on the Web Application,
-			 Mobile Application. The quality and reliability of our products have always satisfied our clients.</p>
+			 Mobile Application. The quality and reliability of our products have always satisfied our clients. The develpment of the wbsite 
+			 and applications is passion to us so we create your dream while enjoying.</p>
 
           </div>
 
