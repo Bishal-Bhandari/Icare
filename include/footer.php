@@ -2,22 +2,16 @@
  <footer id="footer">
 			<div class="row px-lg-5 mx-lg-5 pb-1">
 				<div class="col-lg-4 col-sm-12">
-					<a class="navbar-brand js-scroll-trigger" href="#page-top">JS Fashion</a>
+					<a class="navbar-brand js-scroll-trigger" href="#page-top">ICare Technology Pvt. Ltd.</a>
 			
 					<p class="footer-para-indexSecondary text-muted">Below we have our contact number and address of our office.</p>
 					 
 					<ul class="list-unstyled list-inline">
 						<li class="my-2">
-						<i class="fas fa-phone-volume"></i>&nbsp;&nbsp;<strong class="footer-strong-contact">986+46546546</strong>
+						<i class="fas fa-phone-volume"></i>&nbsp;&nbsp;<strong class="footer-strong-contact">+977 014359013</strong>
 						</li>
 						<li class="my-2">
-						<i class="fas fa-phone-volume"></i>&nbsp;&nbsp;<strong class="footer-strong-contact">986+46546546</strong>
-						</li>
-						<li class="my-2">
-						<i class="fas fa-phone-volume"></i>&nbsp;&nbsp;<strong class="footer-strong-contact">986+46546546</strong>
-						</li>
-						<li class="my-2">
-						<i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;<strong class="footer-strong-contact">Paiyatar-23,Kathmandu, Nepal</strong>
+						<i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;<strong class="footer-strong-contact">Binod Complex 4th Floor, Gangabu, Kathmandu Nepal</strong>
 						</li>
 					</ul>
 				</div>
@@ -28,10 +22,7 @@
 							<a href="index.php" class="text-muted">Home</a>
 						</li>
 						<li class="d-block li-style">
-							<a href="detail.php" class="text-muted">Detail</a>
-						</li>
-						<li class="d-block li-style">
-							<a href="product.php" class="text-muted">Product</a>
+							<a href="detail.php" class="text-muted">Blog</a>
 						</li>
 					</ul>
 				</div>
@@ -44,16 +35,13 @@
 						<li class="d-block li-style">
 							<a href="gallery.php" class="text-muted trigger-popup-div">Gallery</a>
 						</li>
-						<li class="d-block li-style">
-							<a href="about.php" class="text-muted">About</a>
-						</li>
 					</ul>
 				</div>
 				<div class="col-lg-4 col-sm-12">
 					<h4 class="pt-4 font-weight-bold head-heading-top">Connect us on</h4>
 					<ul class="list-inline">
 						<li class="list-inline-item">
-							<a class="small" href="#"><i class="fab fa-facebook-f footer-socialicon"></i></a>
+							<a class="small" href="https://www.facebook.com/icaresoft/"><i class="fab fa-facebook-f footer-socialicon"></i></a>
 						</li>
 						<li class="list-inline-item">
 							<a class="small" href="#"><i class="fab fa-twitter footer-socialicon"></i></a>
@@ -71,7 +59,7 @@
 			<div class="row px-lg-5 mx-lg-5 pt-5">
 				<div class="col-sm-12">
                     <div class="text-center copy-right-footer text-muted">2019 &copy; All rights reserved by
-                        <a href="https://jsfashion.com.np" class="nav-link d-inline pl-0 footer-link-brandname">JS Fashion</a>
+                        <a href="https://icare.com.np" class="nav-link d-inline pl-0 footer-link-brandname">ICare Technology Pvt. Ltd</a>
                     </div>
 				</div>
 			</div>

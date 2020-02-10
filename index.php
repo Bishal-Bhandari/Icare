@@ -18,12 +18,12 @@ include('include/slider.php');
 			We are known for providing the best IT experience and taking great care of our clients and employees.</p>
             <p class="para-service line-height-about mb-3 pb-5 text-dark">We ICare Technology have been working on the Web Application,
 			 Mobile Application. The quality and reliability of our products have always satisfied our clients. The develpment of the wbsite 
-			 and applications is passion to us so we create your dream while enjoying.</p>
+			 and applications is passion to us so we create your dream while enjoying. Contact us for more your dream project.</p>
 
           </div>
 
           <div class="col-lg-4 col-sm-12 pr-lg-5 px-2" data-aos="fade-left" data-aos-duration="1000">
-            <img src="img/team/ceo1.jpg" width="100%" alt="Doctor Image">
+            <img src="img/team/ceo1.jpg" width="100%" alt="Image">
           </div>
 
         </div>
@@ -45,7 +45,7 @@ include('include/slider.php');
 			<i class="fas fa-pencil-ruler fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Design</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <p class="text-muted">We collect requirements from our client and study/research on it. Then our UI/UX team start on the design for the system.</p>
         </div>
         <div class="col-md-4" data-aos="flip-up" data-aos-duration="1000">
           <span class="fa-stack fa-4x">
@@ -53,7 +53,7 @@ include('include/slider.php');
 			<i class="fas fa-file-code fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Develop</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <p class="text-muted">Our coders will change the design into running system. The optimized system that meets every requirements will be deliverd.</p>
         </div>
         <div class="col-md-4" data-aos="flip-up" data-aos-duration="1000">
           <span class="fa-stack fa-4x">
@@ -61,7 +61,7 @@ include('include/slider.php');
 			<i class="fas fa-server fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Deploy</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <p class="text-muted">We go through various testing with the system. After the satisfaction of our clients we deploy the system onto the servers.</p>
         </div>
       </div>
     </div>
@@ -77,9 +77,9 @@ include('include/slider.php');
 					<div class="row bg-light py-2 general-content-shadow" data-aos="flip-up" data-aos-duration="1000">
 						<div class="col-sm-12">
 							<article class="px-1">
-								<i class="fab fa-500px fa-2x"></i>
+								<i class="fab fa-500px fa-2x mb-3"></i>
 								<!-- <h5 class="font-weight-bold my-2">Events</h5> -->
-								<p class="para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+								<p class="para-color">We use latest methods for designing clients project(s).
 								</p>
 							</article>
 						</div>
@@ -87,9 +87,9 @@ include('include/slider.php');
 					<div class="row bg-light py-2 my-3 general-content-shadow" data-aos="flip-up" data-aos-duration="1000">
 						<div class="col-sm-12">
 							<article class="px-1">
-								<i class="fas fa-calendar-week fa-2x"></i>
+								<i class="fas fa-calendar-week fa-2x mb-3"></i>
 								<!-- <h5 class="font-weight-bold my-2">Schedule</h5> -->
-								<p class="para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+								<p class="para-color">We guarantee to complete the project(s) within the dateline.
 								</p>
 							</article>
 						</div>
@@ -97,9 +97,9 @@ include('include/slider.php');
 					<div class="row bg-light py-2 my-3 general-content-shadow" data-aos="flip-up" data-aos-duration="1000">
 						<div class="col-sm-12">
 							<article class="px-1">
-								<i class="fas fa-medal fa-2x"></i>
+								<i class="fas fa-medal fa-2x mb-3"></i>
 								<!-- <h5 class="font-weight-bold my-2">Reward</h5> -->
-								<p class="para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+								<p class="para-color">We design and develop best of the best system among other.
 								</p>
 							</article>
 						</div>
@@ -107,9 +107,9 @@ include('include/slider.php');
 					<div class="row bg-light py-2 my-3 general-content-shadow" data-aos="flip-up" data-aos-duration="1000">
 						<div class="col-sm-12">
 							<article class="px-1">
-								<i class="far fa-heart fa-2x"></i>
+								<i class="far fa-heart fa-2x mb-3"></i>
 								<!-- <h5 class="font-weight-bold my-2">Donation</h5> -->
-								<p class="para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+								<p class="para-color">Our support towards the client will forever and always.
 								</p>
 							</article>
 						</div>
@@ -203,11 +203,11 @@ include('include/slider.php');
 				<div class="col-lg-5 pt-0 pr-lg-5">
 					<h4 class="font-weight-bold heading-font-size head-heading-top">Some overview on our organization</h4>
 					<hr class="underline-bar-indexSecondary">
-					<p class="para-firstSection-indexSecondary pt-lg-4 mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur. </p>
-					<p class="para-firstSection-indexSecondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur.</p>
+					<p class="para-firstSection-indexSecondary pt-lg-4 mt-1">I am satisfied with the work and performance of the ICare team. They have done great job for my website. </p>
+					<p class="para-firstSection-indexSecondary">They have completed the website within the dateline and within the feasibility of the cost. The website is great as per my request. Once again I want to thank ICare and its team for its brillent job.</p>
 				</div>
 				<div class="col-lg-7 py-2 pr-lg-5 px-3">
-					<img src="img/team/2.jpg" width="100%">
+					<img src="img/person.jpeg" width="100%">
 				</div>
 			</div>
 	</section>

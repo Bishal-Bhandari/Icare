@@ -11,9 +11,6 @@ echo"<div class='col-lg-12'>";
 echo"<table>";
 echo"<tr>";
 echo"<th>Image</th>";
-echo"<th>Size</th>";
-echo"<th>Color</th>";
-echo"<th>Type of Garment</th>";
 echo"<th>Description</th>";
 echo"<th>Operation</th>";
 echo"</tr>";
@@ -30,16 +27,10 @@ include('dbcon.php');
                                  
                                 $id=$row['blog_id'];
                                 $img=$row['blog_img'];
-                                $size=$row['size'];
-                                $color=$row['color'];
-                                $typeof=$row['typeof'];
                                 $long=$row['blog_long_des'];
 
 								echo"<tr>";
 								echo"<td><div class='gal-img-wrap'><img src='../img/product_img/$img' width='100%'></div></td>";
-								echo"<td><h5>$size</h5></td>";
-								echo"<td><h5>$color</h5></td>";
-								echo"<td><h5>$typeof</h5></td>";
 								echo"<td><p>$long</h5></p>";
 								echo"<td><a href='updateBlog.php?edit_post_ref=$id' class='btn btn-info'  role='button'>Edit</a><br><br>
 								<a href='deleteBlog.php?delete_post_ref=$id' class='btn btn-danger' onclick='myFunction($id); return false;' role='button'>Delete</a></td>";
