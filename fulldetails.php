@@ -11,7 +11,7 @@ include('include/navbar.php');
                     echo"<div class='container'>";
                         echo"<div class='row'>";
                             echo"<div class='col-lg-12 text-center'>";
-                                echo"<h2 class='section-heading text-uppercase'>Full Product Details</h2>";
+                                echo"<h2 class='section-heading text-uppercase'>Full News</h2>";
                             echo"</div>";
                         echo"</div>";
 
@@ -53,7 +53,7 @@ include('include/navbar.php');
 		echo"<div class='container'>";
 			echo"<div class='row'>";
 				echo"<div class='col-lg-12 text-center'>";
-					echo"<h3 class='section-subheading text-muted'>Our other products.</h3>";
+					echo"<h3 class='section-subheading text-muted'>Other News.</h3>";
 				echo"</div>";
 			echo"</div>";
 			echo"<div class='row'>";
@@ -69,7 +69,6 @@ include('include/navbar.php');
 									
 									$id=$row['blog_id'];
 									$img=$row['blog_img'];
-									$color=$row['color'];
 									$typeof=$row['typeof'];
 
 									
@@ -84,7 +83,6 @@ include('include/navbar.php');
 										echo"</a>";
 										echo"<div class='portfolio-caption'>";
 										echo"<h4>$typeof</h4>";
-										echo"<p class='text-muted'>$color</p>";
 										echo"</div>";
 										echo"</div>";
 										

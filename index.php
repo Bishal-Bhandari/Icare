@@ -13,20 +13,11 @@ include('include/slider.php');
           <div class="col-lg-8 col-sm-12 pl-lg-5 px-2" data-aos="fade-right" data-aos-duration="1000">
             <h3 class="display-5 pt-5 font-weight-bold service-heading-top head-heading-top">Welcome to ICare Technology</h3>
             <hr class="underline-welcome-about ml-0 mt-0 ">
-            <p class="para-service line-height-about mt-4 mb-1 pb-3 text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
-              adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <p class="para-service line-height-about mb-3 pb-5 text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
-              adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
-              adipiscing.</p>
+            <p class="para-service line-height-about mt-4 mb-1 pb-3 text-dark">Welcome you to the ICare Technology Pvt. Ltd.
+			 Since 2011, ICare has been a leading provider of ICT solutions and services. It is ultimate place for ICT solution. 
+			We are known for providing the best IT experience and taking great care of our clients and employees.</p>
+            <p class="para-service line-height-about mb-3 pb-5 text-dark">We ICare Technology have been working on the Web Application,
+			 Mobile Application. The quality and reliability of our products have always satisfied our clients.</p>
 
           </div>
 

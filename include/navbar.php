@@ -14,7 +14,7 @@
             <a class="nav-link js-scroll-trigger" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="detail.php">Detail</a>
+            <a class="nav-link js-scroll-trigger" href="detail.php">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="gallery.php">Gallery</a>

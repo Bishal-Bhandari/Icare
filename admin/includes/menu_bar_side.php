@@ -41,7 +41,7 @@
 
          <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fab fa-product-hunt"></i>
+          <i class="fa fa-rss"></i>
             <span>Product</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="pagesDropdown">

@@ -13,8 +13,8 @@ include('include/slider.php');
      echo"<div class='container'>";
          echo"<div class='row'>";
              echo"<div class='col-lg-12 text-center'>";
-                 echo"<h2 class='section-heading text-uppercase'>Product Details</h2>";
-                 echo"<h3 class='section-subheading text-muted'>Click product image to know more.</h3>";
+                 echo"<h2 class='section-heading text-uppercase'>News</h2>";
+                 echo"<h3 class='section-subheading text-muted'>Click News image to know more.</h3>";
              echo"</div>";
          echo"</div>";
          echo"<div class='row'>";
@@ -30,7 +30,6 @@ include('admin/dbcon.php');
                                  
                                 $id=$row['blog_id'];
                                 $img=$row['blog_img'];
-                                $color=$row['color'];
                                 $typeof=$row['typeof'];
 
                                 
@@ -45,7 +44,6 @@ include('admin/dbcon.php');
                                     echo"</a>";
                                     echo"<div class='portfolio-caption'>";
                                     echo"<h4>$typeof</h4>";
-                                    echo"<p class='text-muted'>$color</p>";
                                     echo"</div>";
                                     echo"</div>";
                                     

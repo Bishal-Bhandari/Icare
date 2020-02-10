@@ -4,7 +4,7 @@ include('includes/navbar_top.php');
 include('includes/menu_bar_side.php');
 ?>
 <div class="container">
-  <h2>Add Product</h2>
+  <h2>Add News</h2>
   <form action="upload_blog.php" method="POST" enctype="multipart/form-data">
     <div class="form-group">
       <label for="image">Image:</label>
