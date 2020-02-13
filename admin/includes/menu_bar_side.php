@@ -12,7 +12,7 @@
 
         <?php
         $sess = $_SESSION['admin_email'];
-        if($sess == 'bishalbhaandari62@gmail.com'){
+        if($sess == 'icare159@gmail.com'){
         echo"<li class='nav-item dropdown'>";
           echo"<a class='nav-link dropdown-toggle' href='#'' id='pagesDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>";
             echo"<i class='fas fa-user'></i> ";

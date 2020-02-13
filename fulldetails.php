@@ -1,5 +1,5 @@
 <?php
-$phptitle="Product Detail";
+$phptitle="Blog";
 ?>
 <?php 
 include('include/head.php');
@@ -27,7 +27,8 @@ include('include/navbar.php');
                                 $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
                                  
                                 $id=$row['blog_id'];
-                                $img=$row['blog_img'];
+								$img=$row['blog_img'];
+								$title=$row['title'];
                                 $long=$row['blog_long_des'];
 
                                 echo"<div class'row'>";
@@ -38,16 +39,15 @@ include('include/navbar.php');
                                 echo"</div>";
                                 echo"</div>";
                                 echo"<div class='row'>";
-                                echo"<div class='col-12'>";
-                    echo"<p class='bg-white border border-0 rounded my-2'>&nbsp;&nbsp;$long</p>";
+								echo"<div class='col-12' style='overflow-wrap: break-word'>";
+								echo"<p class='blog-title'>$title</p>";
+                    echo"<p class='bg-white border border-0 rounded my-2'>$long</p>";
                     echo"</div>";
                     echo"</div>";
                                 }
           echo"</div>";
         echo"</section>";
-?>
 
-<?php
 	//  <!-- Portfolio Grid -->
 	echo"<section class='bg-light page-section' id='portfolio'>";
 		echo"<div class='container'>";
@@ -69,7 +69,8 @@ include('include/navbar.php');
 									
 									$id=$row['blog_id'];
 									$img=$row['blog_img'];
-									$typeof=$row['typeof'];
+									$title=$row['title'];
+									$title = substr($title, 0, 30);
 
 									
 									echo"<div class='col-md-4 col-sm-6 portfolio-item'>";
@@ -81,8 +82,8 @@ include('include/navbar.php');
 											echo"</div>";
 											echo"<img class='img-fluid' src='img/product_img/$img' alt='Product Image'>";
 										echo"</a>";
-										echo"<div class='portfolio-caption'>";
-										echo"<h4>$typeof</h4>";
+										echo"<div class='portfolio-caption' style='overflow:hidden'>";
+										echo"<p>$title</p>";
 										echo"</div>";
 										echo"</div>";
 										

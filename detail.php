@@ -30,8 +30,8 @@ include('admin/dbcon.php');
                                  
                                 $id=$row['blog_id'];
                                 $img=$row['blog_img'];
-                                $typeof=$row['typeof'];
-
+                                $title=$row['title'];
+                                $title = substr($title, 0, 80);
                                 
                                 echo"<div class='col-md-4 col-sm-6 portfolio-item'>";
                                     echo"<a class='portfolio-link' href='fulldetails.php?fuldetail_ref=$id'>";
@@ -42,8 +42,8 @@ include('admin/dbcon.php');
                                         echo"</div>";
                                         echo"<img class='img-fluid' src='img/product_img/$img' alt='Product Image'>";
                                     echo"</a>";
-                                    echo"<div class='portfolio-caption'>";
-                                    echo"<h4>$typeof</h4>";
+                                    echo"<div class='portfolio-caption' style='overflow:auto'>";
+                                    echo"<h4>$title</h4>";
                                     echo"</div>";
                                     echo"</div>";
                                     

@@ -9,16 +9,14 @@ include('dbcon.php');
   	// Get image name
   	$image = $_FILES['image']['name'];
   	// Get text
-      $size = mysqli_real_escape_string($con, $_POST['size']);
-      $color = mysqli_real_escape_string($con, $_POST['color']);
-      $typeof = mysqli_real_escape_string($con, $_POST['typeof']);
+      $title = mysqli_real_escape_string($con, $_POST['title']);
       $long = mysqli_real_escape_string($con, $_POST['long']);
 
   	// image file directory
   	$target = "../img/product_img/".basename($image);
 
-  	$sql = "INSERT INTO blog_post (blog_img,size,color,typeof,blog_long_des) 
-      VALUES ('$image', '$size', '$color', '$typeof', '$long')";
+  	$sql = "INSERT INTO blog_post (blog_img,title,blog_long_des) 
+      VALUES ('$image', '$title', '$long')";
   	// execute query
   	mysqli_query($con, $sql);
 

@@ -1,7 +1,7 @@
 .head-btn:hover{
-  background-color: #a52a2a !important;
+  background-color: #3e0b0b !important;
   color: #f1efef;
-  border:1px solid #a52a2a;
+  border:1px solid #3e0b0b;
 }
 /* shadow for general content section */
 .general-content-shadow{
@@ -37,7 +37,7 @@
 	font-size: 35px;
 }
 .head-heading-top{
-	color: #a52a2b;
+	color: #3e0b0b;
 }
 
 /* style for counter section */
@@ -126,4 +126,14 @@ z-index: 1;
 }
 .footer-strong-contact{
   color: #a52a2a;
+}
+
+/* for blog full */
+.blog-title{
+  font-size: larger;
+  font-weight: bolder;
+}
+.wrap-div{
+  overflow-x: hidden;
+  overflow-y: hidden;
 }

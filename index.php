@@ -9,7 +9,7 @@ include('include/slider.php');
 
   <!--===== welcome speech =====-->
   <section class="container-fluid pb-3 mt-5 py-0">
-        <div class="row px-lg-5 px-2">
+        <div class="row px-lg-5 px-2 mx-0">
           <div class="col-lg-8 col-sm-12 pl-lg-5 px-2" data-aos="fade-right" data-aos-duration="1000">
             <h3 class="display-5 pt-5 font-weight-bold service-heading-top head-heading-top">Welcome to ICare Technology</h3>
             <hr class="underline-welcome-about ml-0 mt-0 ">
@@ -32,13 +32,13 @@ include('include/slider.php');
   <!-- Services -->
   <section class="page-section" id="services">
     <div class="container">
-      <div class="row">
+      <div class="row mx-0">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase head-heading-top">Feature</h2>
           <h3 class="section-subheading text-muted">Here we have feature of our company.</h3>
         </div>
       </div>
-      <div class="row text-center">
+      <div class="row text-center mx-0">
         <div class="col-md-4" data-aos="flip-up" data-aos-duration="1000">
           <span class="fa-stack fa-4x">
 			<i class="fas fa-circle fa-stack-2x text-primary"></i>
@@ -68,13 +68,13 @@ include('include/slider.php');
   </section>
 
 	<!--===== general =====-->
-	<section class="container-fluid pl-lg-1 pr-lg-5 my-5 py-5" id="general">
-			<div class="row pr-lg-5 px-2">
+	<section class="container-fluid pl-lg-1 pr-lg-4 my-5 py-5" id="general">
+			<div class="row pl-2 mx-0">
 				<div class="col-lg-7">
-					<img src="img/header-bg.jpg" width="100%">
+					<img src="img/info-bg.jpeg" width="100%">
 				</div>
-				<div class="col-lg-5 pr-lg-5 px-3">
-					<div class="row bg-light py-2 general-content-shadow" data-aos="flip-up" data-aos-duration="1000">
+				<div class="col-lg-5 pl-3">
+					<div class="row mx-0 bg-light py-2 general-content-shadow" data-aos="flip-up" data-aos-duration="1000">
 						<div class="col-sm-12">
 							<article class="px-1">
 								<i class="fab fa-500px fa-2x mb-3"></i>
@@ -84,7 +84,7 @@ include('include/slider.php');
 							</article>
 						</div>
 					</div>
-					<div class="row bg-light py-2 my-3 general-content-shadow" data-aos="flip-up" data-aos-duration="1000">
+					<div class="row mx-0 bg-light py-2 my-3 general-content-shadow" data-aos="flip-up" data-aos-duration="1000">
 						<div class="col-sm-12">
 							<article class="px-1">
 								<i class="fas fa-calendar-week fa-2x mb-3"></i>
@@ -94,7 +94,7 @@ include('include/slider.php');
 							</article>
 						</div>
 					</div>
-					<div class="row bg-light py-2 my-3 general-content-shadow" data-aos="flip-up" data-aos-duration="1000">
+					<div class="row mx-0 bg-light py-2 my-3 general-content-shadow" data-aos="flip-up" data-aos-duration="1000">
 						<div class="col-sm-12">
 							<article class="px-1">
 								<i class="fas fa-medal fa-2x mb-3"></i>
@@ -104,7 +104,7 @@ include('include/slider.php');
 							</article>
 						</div>
 					</div>
-					<div class="row bg-light py-2 my-3 general-content-shadow" data-aos="flip-up" data-aos-duration="1000">
+					<div class="row mx-0 bg-light py-2 my-3 general-content-shadow" data-aos="flip-up" data-aos-duration="1000">
 						<div class="col-sm-12">
 							<article class="px-1">
 								<i class="far fa-heart fa-2x mb-3"></i>
@@ -121,7 +121,7 @@ include('include/slider.php');
   
 	<!--===== number of project info section =====-->
   <section id="numberProject" class="container-fluid px-lg-0 py-5 d-none d-lg-block">
-			<div class="row counter-row-img">
+			<div class="row counter-row-img mx-0">
 				<div class="text-center show-project-num">
 				<span class="iconify counter-icon" data-icon="entypo:emoji-happy" data-inline="false"></span>
 					<p class="value c-section4 mb-5">56</p>
@@ -153,7 +153,7 @@ include('include/slider.php');
 	//  <!-- Portfolio Grid -->
 	echo"<section class='bg-light page-section' id='portfolio'>";
 		echo"<div class='container'>";
-			echo"<div class='row'>";
+			echo"<div class='row mx-0'>";
 				echo"<div class='col-lg-12 text-center'>";
 					echo"<h2 class='section-heading text-uppercase'>Tech News</h2>";
 					echo"<h3 class='section-subheading text-muted'>Click image to know more.</h3>";
@@ -172,8 +172,8 @@ include('include/slider.php');
 									
 									$id=$row['blog_id'];
 									$img=$row['blog_img'];
-
-									
+									$title=$row['title'];
+									$title = substr($title, 0, 80);
 									echo"<div class='col-md-4 col-sm-6 portfolio-item'>";
 										echo"<a class='portfolio-link' href='fulldetails.php?fuldetail_ref=$id'>";
 											echo"<div class='portfolio-hover'>";
@@ -183,7 +183,8 @@ include('include/slider.php');
 											echo"</div>";
 											echo"<img class='img-fluid' src='img/product_img/$img' alt='Product Image'>";
 										echo"</a>";
-										echo"<div class='portfolio-caption'>";
+										echo"<div class='portfolio-caption' style='overflow:auto'>";
+										echo"<p>$title</p>";
 										echo"</div>";
 										echo"</div>";
 										
@@ -199,7 +200,7 @@ include('include/slider.php');
 
   <!--===== first section ======-->
   <section class="container-fluid px-lg-5 py-1 my-5" id="#">
-			<div class="row px-lg-5 px-2 mt-lg-5 pt-lg-5 py-3">
+			<div class="row px-lg-5 px-2 mt-lg-5 pt-lg-5 py-3 mx-0">
 				<div class="col-lg-5 pt-0 pr-lg-5">
 					<h4 class="font-weight-bold heading-font-size head-heading-top">Some overview on our organization</h4>
 					<hr class="underline-bar-indexSecondary">
